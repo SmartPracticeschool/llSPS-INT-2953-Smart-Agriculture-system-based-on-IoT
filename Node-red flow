@@ -1,0 +1,764 @@
+[
+    {
+        "id": "57d1636.190f19c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8a61face.ed9338",
+        "type": "tab",
+        "label": "design",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "299c8031.e3973",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6947f6d8.5399d8",
+        "type": "ibmiot",
+        "z": "",
+        "name": "SmartIoT",
+        "keepalive": "60",
+        "serverName": "",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "83360f13.774a1",
+        "type": "ibmiot",
+        "z": null,
+        "name": "",
+        "keepalive": "60",
+        "serverName": "",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "ebc3c832.369c38",
+        "type": "ibmiot",
+        "z": "",
+        "name": "",
+        "keepalive": "60",
+        "serverName": "",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "59ad583c.94b948",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Basics of node-red",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3ffa721f.8a095e",
+        "type": "ui_group",
+        "z": "",
+        "name": "Atmosphere",
+        "tab": "59ad583c.94b948",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a4e5c6d6.74ccc8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Temperature2",
+        "tab": "59ad583c.94b948",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a11624b4.c3b1f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Temp3",
+        "tab": "59ad583c.94b948",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6614b66c.678298",
+        "type": "ui_group",
+        "z": "",
+        "name": "Temp4",
+        "tab": "59ad583c.94b948",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "de36a910.bafc78",
+        "type": "ui_tab",
+        "z": "",
+        "name": "New humidity tab",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3db7b020.a7bb9",
+        "type": "ui_group",
+        "z": "",
+        "name": "Atmosphere",
+        "tab": "de36a910.bafc78",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1845be73.2610c2",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Soil_moisture tab",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b7930a64.2ad3c8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Ground",
+        "tab": "1845be73.2610c2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cc4bac84.ae693",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Weather Data",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7af1d4a7.954e8c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Humidity",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b9cac7b7.8a8bf8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Operate Motor",
+        "tab": "cc4bac84.ae693",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "e56356b1.4d2278",
+        "type": "ui_group",
+        "z": "",
+        "name": "Temperature",
+        "tab": "cc4bac84.ae693",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "92145d8d.f4a4a",
+        "type": "ui_group",
+        "z": "",
+        "name": "Humidity",
+        "tab": "cc4bac84.ae693",
+        "order": 2,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "56903a4e.0bc884",
+        "type": "ui_group",
+        "z": "",
+        "name": "Soil Moisture",
+        "tab": "cc4bac84.ae693",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "2bc488ca.600378",
+        "type": "inject",
+        "z": "8a61face.ed9338",
+        "name": "",
+        "topic": "",
+        "payload": "Hello User!!",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "5993994f.b66568"
+            ]
+        ],
+        "info": "Here is your information"
+    },
+    {
+        "id": "5993994f.b66568",
+        "type": "debug",
+        "z": "8a61face.ed9338",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 590,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2fe696e6.d9e48a",
+        "type": "ibmiot in",
+        "z": "8a61face.ed9338",
+        "authentication": "apiKey",
+        "apiKey": "6947f6d8.5399d8",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "node_23",
+        "applicationId": "",
+        "deviceType": "SmartIoT",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": false,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": "0",
+        "x": 90,
+        "y": 480,
+        "wires": [
+            [
+                "b5cc8b81.9e4148",
+                "e5ff25f0.860ec8",
+                "c4954a28.df0b38",
+                "4b793864.9df888",
+                "c409c7a4.3df008"
+            ]
+        ]
+    },
+    {
+        "id": "c409c7a4.3df008",
+        "type": "debug",
+        "z": "8a61face.ed9338",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 650,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b5cc8b81.9e4148",
+        "type": "function",
+        "z": "8a61face.ed9338",
+        "name": "Temperature",
+        "func": "msg.payload = msg.payload.d.temperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "ea35b431.5e29d8"
+            ]
+        ]
+    },
+    {
+        "id": "e5ff25f0.860ec8",
+        "type": "function",
+        "z": "8a61face.ed9338",
+        "name": "Humidity",
+        "func": "msg.payload = msg.payload.d.humidity\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 420,
+        "wires": [
+            [
+                "76fefd2d.2fcd84"
+            ]
+        ]
+    },
+    {
+        "id": "324e425a.2ec33e",
+        "type": "ibmiot out",
+        "z": "8a61face.ed9338",
+        "authentication": "apiKey",
+        "apiKey": "6947f6d8.5399d8",
+        "outputType": "cmd",
+        "deviceId": "node_32",
+        "deviceType": "SmartIoT",
+        "eventCommandType": "Home",
+        "format": "json",
+        "data": "data",
+        "qos": 0,
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 640,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "7ec8d08d.33fd8",
+        "type": "ui_button",
+        "z": "8a61face.ed9338",
+        "name": "",
+        "group": "b9cac7b7.8a8bf8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Motor on",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"command\":\"motoron\"}",
+        "payloadType": "json",
+        "topic": "",
+        "x": 360,
+        "y": 700,
+        "wires": [
+            [
+                "324e425a.2ec33e",
+                "550689e1.9ee7c8"
+            ]
+        ]
+    },
+    {
+        "id": "2399079e.92be28",
+        "type": "ui_button",
+        "z": "8a61face.ed9338",
+        "name": "",
+        "group": "b9cac7b7.8a8bf8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Motor off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"command\":\"motoroff\"}",
+        "payloadType": "json",
+        "topic": "",
+        "x": 360,
+        "y": 740,
+        "wires": [
+            [
+                "324e425a.2ec33e",
+                "550689e1.9ee7c8"
+            ]
+        ]
+    },
+    {
+        "id": "550689e1.9ee7c8",
+        "type": "debug",
+        "z": "8a61face.ed9338",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 630,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "c4954a28.df0b38",
+        "type": "function",
+        "z": "8a61face.ed9338",
+        "name": "Soil moisture",
+        "func": "msg.payload = msg.payload.d.objectTemp\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 580,
+        "wires": [
+            [
+                "3b1be368.2469cc"
+            ]
+        ]
+    },
+    {
+        "id": "ea35b431.5e29d8",
+        "type": "ui_gauge",
+        "z": "8a61face.ed9338",
+        "name": "Temp",
+        "group": "e56356b1.4d2278",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "compass",
+        "title": "",
+        "label": "C",
+        "format": "{{value}}",
+        "min": "15",
+        "max": "75",
+        "colors": [
+            "#00b500",
+            "#3de600",
+            "#ca3838"
+        ],
+        "seg1": "40",
+        "seg2": "80",
+        "x": 650,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "3b1be368.2469cc",
+        "type": "ui_gauge",
+        "z": "8a61face.ed9338",
+        "name": "Moisture",
+        "group": "56903a4e.0bc884",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "25",
+        "seg2": "75",
+        "x": 660,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b2599e5b.92563",
+        "type": "comment",
+        "z": "8a61face.ed9338",
+        "name": "IoT Simulator Data",
+        "info": "",
+        "x": 130,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "22a2a259.68d4fe",
+        "type": "comment",
+        "z": "8a61face.ed9338",
+        "name": "Operate Motor",
+        "info": "",
+        "x": 130,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "87af3ba3.3d8428",
+        "type": "status",
+        "z": "8a61face.ed9338",
+        "name": "ON Time Period",
+        "scope": null,
+        "x": 140,
+        "y": 700,
+        "wires": [
+            [
+                "7ec8d08d.33fd8"
+            ]
+        ]
+    },
+    {
+        "id": "178085de.05763a",
+        "type": "status",
+        "z": "8a61face.ed9338",
+        "name": "OFF Time Period",
+        "scope": [
+            "2399079e.92be28"
+        ],
+        "x": 140,
+        "y": 740,
+        "wires": [
+            [
+                "2399079e.92be28"
+            ]
+        ]
+    },
+    {
+        "id": "9fbbc331.3782c",
+        "type": "http request",
+        "z": "57d1636.190f19c",
+        "name": "Weather",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "http://api.openweathermap.org/data/2.5/weather?q=Miryalguda, IN&appid=ccc509a26211f7b6088fbee39d9b77d2",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 360,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7edb3b8a.763354",
+        "type": "inject",
+        "z": "57d1636.190f19c",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43106876.d43058",
+        "type": "debug",
+        "z": "57d1636.190f19c",
+        "name": "Weather API Info",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 580,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4b793864.9df888",
+        "type": "http request",
+        "z": "8a61face.ed9338",
+        "name": "Weather",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "http://api.openweathermap.org/data/2.5/weather?q=Miryalguda, IN&appid=ccc509a26211f7b6088fbee39d9b77d2",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 400,
+        "y": 520,
+        "wires": [
+            [
+                "c409c7a4.3df008"
+            ]
+        ]
+    },
+    {
+        "id": "76fefd2d.2fcd84",
+        "type": "ui_gauge",
+        "z": "8a61face.ed9338",
+        "name": "Humid",
+        "group": "92145d8d.f4a4a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "25",
+        "seg2": "75",
+        "x": 650,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "dd33c3b5.810d7",
+        "type": "ui_text_input",
+        "z": "8a61face.ed9338",
+        "name": "Motor Commands",
+        "label": "Hello User!! I'm Motor",
+        "tooltip": "",
+        "group": "b9cac7b7.8a8bf8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "x": 370,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5dac2a2.33a7a",
+        "type": "ui_text",
+        "z": "8a61face.ed9338",
+        "group": "b9cac7b7.8a8bf8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Text",
+        "label": "Please turn me ON/OFF here.",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 610,
+        "y": 640,
+        "wires": []
+    }
+]
